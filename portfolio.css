@@ -120,6 +120,9 @@ body {
     .feature-box {
       flex-basis: calc(100% - 250px);
     }
+
+      .feature-box {
+          
   }
       
     /* ... Previous styles ... */
