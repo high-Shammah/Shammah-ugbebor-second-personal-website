@@ -124,80 +124,23 @@ body {
     }
 
       .feature-box {
-          
+             flex-basis: calc(33.33% - 40px);
   }
       
-    /* ... Previous styles ... */
 
-.journey {
-    margin-top: 50px;
-    padding: 100px;
-  }
-  
-  .journey-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .circle-mark {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #FF6B6B; /* Choose a color */
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .circle-mark i {
-    color: white;
-  }
-  
-  .journey-item p {
-    font-size: 1rem;
-  }
-  @media (max-width: 768px) {
-    .journey-item {
-        display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-items: space-between;
-    }
-  
-    .journey {
-       padding: 30px;
-    }
-
-    .circle-mark {
-        width: 25px;
-        height: 25px;
-      margin-right: 10px;
-      margin-bottom: 10px;
-    }
-  
-    .circle-icon {
-      font-size: 0.5rem;
-    }
-
-    .journey-item p {
-        align-items: flex-start;
-      }
-
-  }
 
   /* ... Previous styles ... */
 
   .live-text-links {
     margin-top: 50px;
-    width: 80%; /* Set width to 80% */
+    width: 90%; /* Set width to 80% */
     margin: 0 auto; /* Center the section */
+      margin-bottom: 50px;
   }
   
   .live-text-links h2 {
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   
   .text-links {
@@ -276,6 +219,8 @@ body {
 
   .about-me {
     margin-bottom: 30px;
+      margin-top: 20px;
+    padding: 30px;
   }
 
   .about-image {
@@ -356,6 +301,12 @@ body {
     color: #777;
   }
   @media (max-width: 768px) {
+
+       .live-projects {
+      margin-top: 30px;
+      padding: 20px;
+    }
+      
     .projects-container {
         width: auto;
         overflow: hidden;
@@ -375,6 +326,65 @@ body {
       margin-left: 10px;
     }
   }
+
+      .journey {
+    margin-top: 50px;
+    padding: 100px;
+  }
+  
+  .journey-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .circle-mark {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    background-color: #FF6B6B; /* Choose a color */
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle-mark i {
+    color: white;
+  }
+  
+  .journey-item p {
+    font-size: 1rem;
+  }
+  @media (max-width: 768px) {
+    .journey-item {
+        display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-items: space-between;
+    }
+  
+    .journey {
+       padding: 30px;
+    }
+
+    .circle-mark {
+        width: 25px;
+        height: 25px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .circle-icon {
+      font-size: 0.5rem;
+    }
+
+    .journey-item p {
+        align-items: flex-start;
+      }
+
+  }
+      
   
   /* Form styles */
 .contact-form label {
@@ -408,7 +418,7 @@ body {
 }
 
 .contact-heading-container{
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .contact-form button[type="submit"] {
@@ -428,6 +438,7 @@ body {
 @media (max-width: 768px) {
   .container {
     height: auto;
+    padding: 30px;
   }
 }
   
@@ -447,7 +458,7 @@ body {
 }
 
 .connect h2 {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin-bottom: 20px;
 }
 
@@ -457,7 +468,7 @@ body {
 
 .connect-links a {
   display: block;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   color: #333;
   text-decoration: none;
@@ -484,7 +495,7 @@ body {
 /* Adjust styles for mobile screens */
 @media (max-width: 768px) {
   .connect-links a {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     margin-bottom: 8px;
   }
 
