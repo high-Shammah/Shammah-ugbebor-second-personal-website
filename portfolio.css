@@ -96,19 +96,23 @@ body {
 .box-about-me {
     background-color: #FAD02E;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    flex-basis: calc(33.33% - 40px);
   }
   
   .box-faq {
     background-color: #d5a4eb;
+      flex-basis: calc(33.33% - 40px);
   }
   
   .box-my-resume {
     background-color: #3498DB;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      flex-basis: calc(33.33% - 40px);
   }
   
   .box-github {
     background-color: #E74C3C;
+      flex-basis: calc(33.33% - 40px);
   }
   
   .box-aspirations {
@@ -440,6 +444,10 @@ body {
     height: auto;
     padding: 30px;
   }
+
+     .contact-form-container {
+    margin-left: 35px;
+  }
 }
   
   
@@ -494,6 +502,10 @@ body {
 
 /* Adjust styles for mobile screens */
 @media (max-width: 768px) {
+    .connect {
+    margin-left: -15px;
+  }
+    
   .connect-links a {
     font-size: 1.5rem;
     margin-bottom: 8px;
