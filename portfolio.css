@@ -95,24 +95,24 @@ body {
 
 .box-about-me {
     background-color: #FAD02E;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     flex-basis: calc(33.33% - 40px);
   }
   
   .box-faq {
     background-color: #d5a4eb;
-      flex-basis: calc(33.33% - 40px);
+    flex-basis: calc(33.33% - 40px);
   }
   
   .box-my-resume {
     background-color: #3498DB;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-      flex-basis: calc(33.33% - 40px);
+    flex-basis: calc(33.33% - 40px);
   }
   
   .box-github {
     background-color: #E74C3C;
-      flex-basis: calc(33.33% - 40px);
+    flex-basis: calc(33.33% - 40px);
   }
   
   .box-aspirations {
@@ -128,18 +128,19 @@ body {
     }
 
       .feature-box {
-             flex-basis: calc(33.33% - 40px);
+        flex-basis: calc(33.33% - 40px);
   }
+}
       
+    /* ... Previous styles ... */
 
 
-  /* ... Previous styles ... */
 
   .live-text-links {
     margin-top: 50px;
     width: 90%; /* Set width to 80% */
     margin: 0 auto; /* Center the section */
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
   
   .live-text-links h2 {
@@ -223,7 +224,7 @@ body {
 
   .about-me {
     margin-bottom: 30px;
-      margin-top: 20px;
+    margin-top: 20px;
     padding: 30px;
   }
 
@@ -306,11 +307,12 @@ body {
   }
   @media (max-width: 768px) {
 
-       .live-projects {
+    .live-projects {
       margin-top: 30px;
       padding: 20px;
     }
-      
+
+    
     .projects-container {
         width: auto;
         overflow: hidden;
@@ -331,7 +333,9 @@ body {
     }
   }
 
-      .journey {
+
+
+  .journey {
     margin-top: 50px;
     padding: 100px;
   }
@@ -380,15 +384,19 @@ body {
     }
   
     .circle-icon {
-      font-size: 0.5rem;
+      font-size: 20px;
     }
 
     .journey-item p {
         align-items: flex-start;
       }
 
+
   }
-      
+
+  /* ... Previous styles ... */
+
+
   
   /* Form styles */
 .contact-form label {
@@ -445,7 +453,7 @@ body {
     padding: 30px;
   }
 
-     .contact-form-container {
+  .contact-form-container {
     margin-left: 35px;
   }
 }
@@ -502,10 +510,10 @@ body {
 
 /* Adjust styles for mobile screens */
 @media (max-width: 768px) {
-    .connect {
+
+  .connect {
     margin-left: -15px;
   }
-    
   .connect-links a {
     font-size: 1.5rem;
     margin-bottom: 8px;
@@ -831,4 +839,5 @@ body {
 
 /* ... Remaining styles ... */
 
+  
   
